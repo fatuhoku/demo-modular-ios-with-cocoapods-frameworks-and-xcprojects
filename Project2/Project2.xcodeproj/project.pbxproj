@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		662EF273C63775D45E0BF772 /* libPods-Project2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E2DBAFFC98CD3952F1A84985 /* libPods-Project2.a */; };
+		1F9F9923FB95A82C0CD89CE1 /* libPods-Project2Framework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDB00D9296F85EA0FBA26AB /* libPods-Project2Framework.a */; };
 		7F594ABB1BF4D21E00D724F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F594ABA1BF4D21E00D724F0 /* main.m */; };
 		7F594ABE1BF4D21E00D724F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F594ABD1BF4D21E00D724F0 /* AppDelegate.m */; };
 		7F594AC11BF4D21E00D724F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F594AC01BF4D21E00D724F0 /* ViewController.m */; };
@@ -55,6 +55,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1F4EB4D7C9792E7398F70ACF /* Pods-Project2Framework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project2Framework.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Project2Framework/Pods-Project2Framework.release.xcconfig"; sourceTree = "<group>"; };
 		7F594AB61BF4D21E00D724F0 /* Project2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F594ABA1BF4D21E00D724F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F594ABC1BF4D21E00D724F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -74,8 +75,10 @@
 		7F594B211BF4D4CB00D724F0 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		7F594B621BF4D9DF00D724F0 /* StringValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringValues.h; sourceTree = "<group>"; };
 		7F594B631BF4D9DF00D724F0 /* StringValues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringValues.m; sourceTree = "<group>"; };
+		8BF6D63E817156D825A21449 /* Pods-Project2Framework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project2Framework.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Project2Framework/Pods-Project2Framework.debug.xcconfig"; sourceTree = "<group>"; };
 		DF74800177FB0D71EE837A01 /* Pods-Project2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project2.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Project2/Pods-Project2.release.xcconfig"; sourceTree = "<group>"; };
 		E2DBAFFC98CD3952F1A84985 /* libPods-Project2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Project2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDDB00D9296F85EA0FBA26AB /* libPods-Project2Framework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Project2Framework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F331983D160ABC7461FAF1E3 /* Pods-Project2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project2.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Project2/Pods-Project2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,7 +88,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F594B1B1BF4D4A400D724F0 /* Project2Framework.framework in Frameworks */,
-				662EF273C63775D45E0BF772 /* libPods-Project2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F9F9923FB95A82C0CD89CE1 /* libPods-Project2Framework.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +181,8 @@
 			children = (
 				F331983D160ABC7461FAF1E3 /* Pods-Project2.debug.xcconfig */,
 				DF74800177FB0D71EE837A01 /* Pods-Project2.release.xcconfig */,
+				8BF6D63E817156D825A21449 /* Pods-Project2Framework.debug.xcconfig */,
+				1F4EB4D7C9792E7398F70ACF /* Pods-Project2Framework.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -186,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				E2DBAFFC98CD3952F1A84985 /* libPods-Project2.a */,
+				EDDB00D9296F85EA0FBA26AB /* libPods-Project2Framework.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -210,13 +216,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F594AD81BF4D21E00D724F0 /* Build configuration list for PBXNativeTarget "Project2" */;
 			buildPhases = (
-				C933D96903C8512CF7729823 /* Check Pods Manifest.lock */,
 				7F594AB21BF4D21E00D724F0 /* Sources */,
 				7F594AB31BF4D21E00D724F0 /* Frameworks */,
 				7F594AB41BF4D21E00D724F0 /* Resources */,
 				7F594B201BF4D4A400D724F0 /* Embed Frameworks */,
-				531ED9A8D65B7D944B26F269 /* Embed Pods Frameworks */,
-				2DD2A4CF7D800586AE868EB5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,10 +253,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F594B1F1BF4D4A400D724F0 /* Build configuration list for PBXNativeTarget "Project2Framework" */;
 			buildPhases = (
+				49E04044D65CBDCDAAC828C9 /* Check Pods Manifest.lock */,
 				7F594B0F1BF4D4A400D724F0 /* Sources */,
 				7F594B101BF4D4A400D724F0 /* Frameworks */,
 				7F594B111BF4D4A400D724F0 /* Headers */,
 				7F594B121BF4D4A400D724F0 /* Resources */,
+				1E3DFDC34BDDFA21CBC2153A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -333,7 +338,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2DD2A4CF7D800586AE868EB5 /* Copy Pods Resources */ = {
+		1E3DFDC34BDDFA21CBC2153A /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -345,25 +350,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Project2/Pods-Project2-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Project2Framework/Pods-Project2Framework-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		531ED9A8D65B7D944B26F269 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Project2/Pods-Project2-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C933D96903C8512CF7729823 /* Check Pods Manifest.lock */ = {
+		49E04044D65CBDCDAAC828C9 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -526,7 +516,6 @@
 		};
 		7F594AD91BF4D21E00D724F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F331983D160ABC7461FAF1E3 /* Pods-Project2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Project2/Info.plist;
@@ -538,7 +527,6 @@
 		};
 		7F594ADA1BF4D21E00D724F0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF74800177FB0D71EE837A01 /* Pods-Project2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Project2/Info.plist;
@@ -574,6 +562,7 @@
 		};
 		7F594B1D1BF4D4A400D724F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BF6D63E817156D825A21449 /* Pods-Project2Framework.debug.xcconfig */;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -593,6 +582,7 @@
 		};
 		7F594B1E1BF4D4A400D724F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F4EB4D7C9792E7398F70ACF /* Pods-Project2Framework.release.xcconfig */;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
