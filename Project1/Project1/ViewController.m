@@ -1,13 +1,12 @@
 //
 //  ViewController.m
-//  Project2
+//  Project1
 //
 //  Created by Hok Shun Poon on 12/11/2015.
 //  Copyright © 2015 Hok Shun Poon. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "Constants.h"
 
 @interface ViewController ()
 
@@ -17,8 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    NSLog(@"Project 2 says '%@'", Project2StringConstant);
+    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning {

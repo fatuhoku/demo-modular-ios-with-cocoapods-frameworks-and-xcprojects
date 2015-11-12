@@ -1,13 +1,13 @@
 //
 //  ViewController.m
-//  Project2
+//  RootProject
 //
 //  Created by Hok Shun Poon on 12/11/2015.
 //  Copyright © 2015 Hok Shun Poon. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "Constants.h"
+#import <Project2Framework/Project2Framework.h>
 
 @interface ViewController ()
 
@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSLog(@"Project 2 says '%@'", Project2StringConstant);
+    NSLog(@"Root project says '%@'", Project2StringConstant);
 }
 
 - (void)didReceiveMemoryWarning {

@@ -14,6 +14,10 @@
 		7F594AC61BF4D21E00D724F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F594AC51BF4D21E00D724F0 /* Assets.xcassets */; };
 		7F594AC91BF4D21E00D724F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F594AC71BF4D21E00D724F0 /* LaunchScreen.storyboard */; };
 		7F594AD41BF4D21E00D724F0 /* Project2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F594AD31BF4D21E00D724F0 /* Project2Tests.m */; };
+		7F594B171BF4D4A400D724F0 /* Project2Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F594B161BF4D4A400D724F0 /* Project2Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F594B1B1BF4D4A400D724F0 /* Project2Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F594B141BF4D4A400D724F0 /* Project2Framework.framework */; };
+		7F594B1C1BF4D4A400D724F0 /* Project2Framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7F594B141BF4D4A400D724F0 /* Project2Framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7F594B221BF4D4CB00D724F0 /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F594B211BF4D4CB00D724F0 /* Constants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +28,28 @@
 			remoteGlobalIDString = 7F594AB51BF4D21E00D724F0;
 			remoteInfo = Project2;
 		};
+		7F594B191BF4D4A400D724F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F594AAE1BF4D21E00D724F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F594B131BF4D4A400D724F0;
+			remoteInfo = Project2Framework;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7F594B201BF4D4A400D724F0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7F594B1C1BF4D4A400D724F0 /* Project2Framework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7F594AB61BF4D21E00D724F0 /* Project2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +65,10 @@
 		7F594ACF1BF4D21E00D724F0 /* Project2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F594AD31BF4D21E00D724F0 /* Project2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Project2Tests.m; sourceTree = "<group>"; };
 		7F594AD51BF4D21E00D724F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F594B141BF4D4A400D724F0 /* Project2Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Project2Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F594B161BF4D4A400D724F0 /* Project2Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Project2Framework.h; sourceTree = "<group>"; };
+		7F594B181BF4D4A400D724F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F594B211BF4D4CB00D724F0 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,10 +76,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F594B1B1BF4D4A400D724F0 /* Project2Framework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7F594ACC1BF4D21E00D724F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F594B101BF4D4A400D724F0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -65,6 +102,7 @@
 			children = (
 				7F594AB81BF4D21E00D724F0 /* Project2 */,
 				7F594AD21BF4D21E00D724F0 /* Project2Tests */,
+				7F594B151BF4D4A400D724F0 /* Project2Framework */,
 				7F594AB71BF4D21E00D724F0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +112,7 @@
 			children = (
 				7F594AB61BF4D21E00D724F0 /* Project2.app */,
 				7F594ACF1BF4D21E00D724F0 /* Project2Tests.xctest */,
+				7F594B141BF4D4A400D724F0 /* Project2Framework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,7 +150,29 @@
 			path = Project2Tests;
 			sourceTree = "<group>";
 		};
+		7F594B151BF4D4A400D724F0 /* Project2Framework */ = {
+			isa = PBXGroup;
+			children = (
+				7F594B161BF4D4A400D724F0 /* Project2Framework.h */,
+				7F594B181BF4D4A400D724F0 /* Info.plist */,
+				7F594B211BF4D4CB00D724F0 /* Constants.h */,
+			);
+			path = Project2Framework;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7F594B111BF4D4A400D724F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F594B221BF4D4CB00D724F0 /* Constants.h in Headers */,
+				7F594B171BF4D4A400D724F0 /* Project2Framework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		7F594AB51BF4D21E00D724F0 /* Project2 */ = {
@@ -121,10 +182,12 @@
 				7F594AB21BF4D21E00D724F0 /* Sources */,
 				7F594AB31BF4D21E00D724F0 /* Frameworks */,
 				7F594AB41BF4D21E00D724F0 /* Resources */,
+				7F594B201BF4D4A400D724F0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7F594B1A1BF4D4A400D724F0 /* PBXTargetDependency */,
 			);
 			name = Project2;
 			productName = Project2;
@@ -149,6 +212,24 @@
 			productReference = 7F594ACF1BF4D21E00D724F0 /* Project2Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		7F594B131BF4D4A400D724F0 /* Project2Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F594B1F1BF4D4A400D724F0 /* Build configuration list for PBXNativeTarget "Project2Framework" */;
+			buildPhases = (
+				7F594B0F1BF4D4A400D724F0 /* Sources */,
+				7F594B101BF4D4A400D724F0 /* Frameworks */,
+				7F594B111BF4D4A400D724F0 /* Headers */,
+				7F594B121BF4D4A400D724F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Project2Framework;
+			productName = Project2Framework;
+			productReference = 7F594B141BF4D4A400D724F0 /* Project2Framework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -164,6 +245,9 @@
 					7F594ACE1BF4D21E00D724F0 = {
 						CreatedOnToolsVersion = 7.1.1;
 						TestTargetID = 7F594AB51BF4D21E00D724F0;
+					};
+					7F594B131BF4D4A400D724F0 = {
+						CreatedOnToolsVersion = 7.1.1;
 					};
 				};
 			};
@@ -182,6 +266,7 @@
 			targets = (
 				7F594AB51BF4D21E00D724F0 /* Project2 */,
 				7F594ACE1BF4D21E00D724F0 /* Project2Tests */,
+				7F594B131BF4D4A400D724F0 /* Project2Framework */,
 			);
 		};
 /* End PBXProject section */
@@ -198,6 +283,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7F594ACD1BF4D21E00D724F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F594B121BF4D4A400D724F0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -225,6 +317,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7F594B0F1BF4D4A400D724F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +331,11 @@
 			isa = PBXTargetDependency;
 			target = 7F594AB51BF4D21E00D724F0 /* Project2 */;
 			targetProxy = 7F594AD01BF4D21E00D724F0 /* PBXContainerItemProxy */;
+		};
+		7F594B1A1BF4D4A400D724F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F594B131BF4D4A400D724F0 /* Project2Framework */;
+			targetProxy = 7F594B191BF4D4A400D724F0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -383,6 +487,44 @@
 			};
 			name = Release;
 		};
+		7F594B1D1BF4D4A400D724F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Project2Framework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeeatsee.Project2Framework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7F594B1E1BF4D4A400D724F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Project2Framework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeeatsee.Project2Framework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -402,12 +544,22 @@
 				7F594ADA1BF4D21E00D724F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F594ADB1BF4D21E00D724F0 /* Build configuration list for PBXNativeTarget "Project2Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F594ADC1BF4D21E00D724F0 /* Debug */,
 				7F594ADD1BF4D21E00D724F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F594B1F1BF4D4A400D724F0 /* Build configuration list for PBXNativeTarget "Project2Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F594B1D1BF4D4A400D724F0 /* Debug */,
+				7F594B1E1BF4D4A400D724F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
