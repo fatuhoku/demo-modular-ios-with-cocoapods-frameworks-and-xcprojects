@@ -18,12 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSLog(@"Project 2 says '%@'", Project2StringConstant);
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    NSLog(@"Project 2's Test Application says '%@'", Project2StringConstant);
 }
 
 @end
