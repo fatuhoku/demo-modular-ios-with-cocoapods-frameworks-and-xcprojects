@@ -12,5 +12,6 @@ target :Project1, :exclusive => true do
 end
 
 target :Project2, :exclusive => true do
+    pod 'BOString'
     xcodeproj 'Project2/Project2.xcodeproj'
 end

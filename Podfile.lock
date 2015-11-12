@@ -1,1 +1,10 @@
+PODS:
+  - BOString (0.0.9)
+
+DEPENDENCIES:
+  - BOString
+
+SPEC CHECKSUMS:
+  BOString: c896f83b514996bbe874c0a3afd61f4c6764e0ed
+
 COCOAPODS: 0.39.0
