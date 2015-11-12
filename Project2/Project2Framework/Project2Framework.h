@@ -16,5 +16,6 @@ FOUNDATION_EXPORT const unsigned char Project2FrameworkVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like
 #import <Project2Framework/Constants.h>
+#import <Project2Framework/StringValues.h>
 
 

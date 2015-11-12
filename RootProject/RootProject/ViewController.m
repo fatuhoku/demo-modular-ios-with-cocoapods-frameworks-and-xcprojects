@@ -19,7 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSLog(@"Root project says '%@'", [StringFunctions stringByCapitalizingString:Project2StringConstant]);
+    NSString *string = [StringValues helloWorldValue].string;
+    NSLog(@"Root project says '%@'", [StringFunctions stringByCapitalizingString:string]);
 }
 
 - (void)didReceiveMemoryWarning {
