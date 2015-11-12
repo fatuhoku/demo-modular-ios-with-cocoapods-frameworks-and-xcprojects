@@ -10,7 +10,7 @@
 
 @implementation StringFunctions
 
-- (NSString *)stringByCapitalizingString:(NSString *)string {
++ (NSString *)stringByCapitalizingString:(NSString *)string {
     return [string capitalizedString];
 }
 

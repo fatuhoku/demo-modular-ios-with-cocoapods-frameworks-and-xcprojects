@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface StringFunctions : NSObject
-- (NSString *)stringByCapitalizingString:(NSString *)string;
++ (NSString *)stringByCapitalizingString:(NSString *)string;
 @end
