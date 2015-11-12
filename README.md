@@ -8,3 +8,5 @@ Project 1 ands Project 2 both have their own
  - frameworks `Project1Framework` `Project2Framework`
  
 We demonstrate that Cocoapods is able to help us install `BOString` into `Project2Framework`.
+
+TODO: What happens when both projects depend on `BOString`?
