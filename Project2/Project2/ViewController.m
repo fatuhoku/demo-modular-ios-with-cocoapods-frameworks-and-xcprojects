@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "Constants.h"
+#import "StringValues.h"
 
 @interface ViewController ()
 
@@ -19,6 +19,7 @@
     [super viewDidLoad];
     
     NSLog(@"Project 2's Test Application says '%@'", Project2StringConstant);
+    NSLog(@"Project 2's Test Application also says '%@'", [StringValues helloWorldValue]);
 }
 
 @end

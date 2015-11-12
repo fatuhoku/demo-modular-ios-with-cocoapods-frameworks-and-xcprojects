@@ -11,7 +11,7 @@
 @implementation StringValues
 
 + (NSAttributedString *)helloWorldValue {
-    return [NSAttributedString new];
+    return [NSAttributedString alloc] initWithString:@"Unformatted string!";
 }
 
 @end
