@@ -1,5 +1,7 @@
 workspace 'Root.xcworkspace'
 
+# This line is required to avoid the following error:
+#   'Could not automatically select an Xcode project. Specify one in your Podfile like so:'
 xcodeproj 'RootProject/RootProject.xcodeproj'
 
 target :RootProject, :exclusive => true do
