@@ -15,6 +15,7 @@
 		7F594AFA1BF4D39300D724F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F594AF81BF4D39300D724F0 /* LaunchScreen.storyboard */; };
 		7F594B051BF4D39300D724F0 /* RootProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F594B041BF4D39300D724F0 /* RootProjectTests.m */; };
 		7F594B241BF4D52800D724F0 /* Project2Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F594B231BF4D52800D724F0 /* Project2Framework.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		7F594B611BF4D7F200D724F0 /* Project1Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F594B601BF4D7F200D724F0 /* Project1Framework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		7F594B041BF4D39300D724F0 /* RootProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootProjectTests.m; sourceTree = "<group>"; };
 		7F594B061BF4D39300D724F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F594B231BF4D52800D724F0 /* Project2Framework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Project2Framework.framework; path = "../Project2/build/Debug-iphoneos/Project2Framework.framework"; sourceTree = "<group>"; };
+		7F594B601BF4D7F200D724F0 /* Project1Framework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Project1Framework.framework; path = "../Project1/build/Debug-iphoneos/Project1Framework.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F594B611BF4D7F200D724F0 /* Project1Framework.framework in Frameworks */,
 				7F594B241BF4D52800D724F0 /* Project2Framework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -118,6 +121,7 @@
 		7F594B251BF4D58A00D724F0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7F594B601BF4D7F200D724F0 /* Project1Framework.framework */,
 				7F594B231BF4D52800D724F0 /* Project2Framework.framework */,
 			);
 			name = Frameworks;

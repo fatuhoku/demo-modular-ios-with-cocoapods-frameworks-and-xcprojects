@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <Project1Framework/Project1Framework.h>
 #import <Project2Framework/Project2Framework.h>
 
 @interface ViewController ()
@@ -18,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSLog(@"Root project says '%@'", Project2StringConstant);
+    NSLog(@"Root project says '%@'", [StringFunctions stringByCapitalizingString:Project2StringConstant]);
 }
 
 - (void)didReceiveMemoryWarning {

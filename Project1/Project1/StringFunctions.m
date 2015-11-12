@@ -11,7 +11,7 @@
 @implementation StringFunctions
 
 + (NSString *)stringByCapitalizingString:(NSString *)string {
-    return [string capitalizedString];
+    return [string uppercaseString];
 }
 
 @end
