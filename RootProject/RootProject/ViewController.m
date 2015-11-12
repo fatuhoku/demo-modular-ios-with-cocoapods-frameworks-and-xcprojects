@@ -20,7 +20,9 @@
     [super viewDidLoad];
     
     NSString *string = [StringValues helloWorldValue].string;
-    NSLog(@"Root project says '%@'", [StringFunctions stringByCapitalizingString:string]);
+    NSLog(@"Root project is displaying: '%@'", [StringFunctions stringByCapitalizingString:string]);
+    
+    self.label.attributedText = [StringValues helloWorldValue];
 }
 
 - (void)didReceiveMemoryWarning {
