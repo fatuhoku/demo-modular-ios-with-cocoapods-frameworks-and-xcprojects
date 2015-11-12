@@ -6,7 +6,7 @@
 //  Copyright © 2015 Hok Shun Poon. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface StringValues : NSObject
 + (NSAttributedString *)helloWorldValue;
