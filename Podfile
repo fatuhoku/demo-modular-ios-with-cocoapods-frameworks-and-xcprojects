@@ -1,7 +1,7 @@
 workspace 'Root.xcworkspace'
 
-# This line is required to avoid the following error:
-#   'Could not automatically select an Xcode project. Specify one in your Podfile like so:'
+# xcodeproj defined here to avoid 'Could not automatically select an Xcode project' error.
+# See https://github.com/CocoaPods/CocoaPods/issues/738#issuecomment-49497948
 xcodeproj 'RootProject/RootProject.xcodeproj'
 
 target :RootProject, :exclusive => true do
