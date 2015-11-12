@@ -14,7 +14,6 @@
 		7F594A951BF4D21500D724F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F594A941BF4D21500D724F0 /* Assets.xcassets */; };
 		7F594A981BF4D21500D724F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F594A961BF4D21500D724F0 /* LaunchScreen.storyboard */; };
 		7F594AA31BF4D21500D724F0 /* Project1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F594AA21BF4D21500D724F0 /* Project1Tests.m */; };
-		7F594B281BF4D73C00D724F0 /* StringFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F594B271BF4D73C00D724F0 /* StringFunctions.m */; };
 		7F594B541BF4D7A700D724F0 /* Project1Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F594B531BF4D7A700D724F0 /* Project1Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7F594B581BF4D7A700D724F0 /* Project1Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F594B511BF4D7A700D724F0 /* Project1Framework.framework */; };
 		7F594B591BF4D7A700D724F0 /* Project1Framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7F594B511BF4D7A700D724F0 /* Project1Framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -307,7 +306,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F594B281BF4D73C00D724F0 /* StringFunctions.m in Sources */,
 				7F594A901BF4D21500D724F0 /* ViewController.m in Sources */,
 				7F594A8D1BF4D21500D724F0 /* AppDelegate.m in Sources */,
 				7F594A8A1BF4D21500D724F0 /* main.m in Sources */,
