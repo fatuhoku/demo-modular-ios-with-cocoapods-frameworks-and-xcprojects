@@ -9,4 +9,6 @@ Project 1 ands Project 2 both have their own
  
 We demonstrate that Cocoapods is able to help us install `BOString` into `Project2Framework`.
 
-TODO: What happens when both projects depend on `BOString`?
+## Caveats
+
+- when both `Project1Framework` and `Project2Framework` both depend on the same pod, say, `BOString`, then `BOString` gets embedded into both. When the two projects are brought together `RootProject` depends on both `Project1` and `Project2`, these duplicate symbols cause linker issues.
